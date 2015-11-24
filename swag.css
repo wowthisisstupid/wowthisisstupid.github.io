@@ -1,20 +1,30 @@
 .area {
   display: table;
-  min-height: 50%;
+  min-height: 100%;
   min-width: 100%;
 }
 
-.area p {
-  display: table-cell; 
-  vertical-align: middle; 
+.area div {
+  display: table-row;
+}
+
+p {
+  display: table-cell;
+  vertical-align: middle;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.area p b {
+b {
   font-size: 250%;
 }
 
-.area p b u {
+u {
   font-size: 250%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
