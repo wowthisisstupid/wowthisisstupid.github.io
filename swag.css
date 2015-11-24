@@ -7,9 +7,14 @@
 .area p {
   display: table-cell; 
   vertical-align: middle; 
-  text-align: center; 
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .area p b {
-  font-size: 500%;
+  font-size: 250%;
+}
+
+.area p b u {
+  font-size: 250%;
 }
